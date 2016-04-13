@@ -53,7 +53,7 @@ Utiliser npm-run-all
 Utiliser -- entre la commande et les paramètres: ```npm run tsc -- -p front```
 
 ### Rappel des paquets utiles
-* del: supprimer des fichiers, uniquement dans le current working directory
+* del-cli: supprimer des fichiers, uniquement dans le current working directory
 * dploy: déploiement via ftp / sftp
 * chokidar-cli: meilleur watcher de modifications sur fichiers
 * npm-run: Permet d'exécuter plus facilement une commande installée en local (à installer en global)
@@ -62,7 +62,7 @@ Utiliser -- entre la commande et les paramètres: ```npm run tsc -- -p front```
 ### Alternatives aux paquets présentés ici
 * npm-run-all: parallelshell
 * chokidar-cli: watch, chokidar-cmd
-* del: rimraf
+* del-cli: rimraf
 
 ## Todo
 * Variables d'environnement

@@ -38,12 +38,31 @@ Mettre des guillemets autour de la tâche et des arguments
 
 ```"tache": "npm-run-all \"soustache arg1 arg2 arg3 ...\""```
 
-### Paquets utiles
-* rimraf: équivalent à rm -rf
+### FAQ
+
+* Comment watcher l'ajout / modification / suppression de fichiers ?
+
+Utiliser chokidar-cli
+
+* Comment lancer plusieurs tâches en série ou en parallèle ?
+
+Utiliser npm-run-all
+
+* Comment passer des arguments à une commande via ```npm run``` ?
+
+Utiliser -- entre la commande et les paramètres: ```npm run tsc -- -p front```
+
+### Rappel des paquets utiles
+* del: supprimer des fichiers, uniquement dans le current working directory
 * dploy: déploiement via ftp / sftp
 * chokidar-cli: meilleur watcher de modifications sur fichiers
-* npm-run: Permet d'exécuter plus facilement une commande installée en local
+* npm-run: Permet d'exécuter plus facilement une commande installée en local (à installer en global)
 * npm-run-all: Permet de gérer les tâches en série ou en parallèle
+
+### Alternatives aux paquets présentés ici
+* npm-run-all: parallelshell
+* chokidar-cli: watch, chokidar-cmd
+* del: rimraf
 
 ## Todo
 * Variables d'environnement

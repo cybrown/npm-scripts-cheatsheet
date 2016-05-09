@@ -58,11 +58,13 @@ Utiliser -- entre la commande et les paramètres: ```npm run tsc -- -p front```
 * chokidar-cli: meilleur watcher de modifications sur fichiers
 * npm-run: Permet d'exécuter plus facilement une commande installée en local (à installer en global)
 * npm-run-all: Permet de gérer les tâches en série ou en parallèle
+* http-server: Serveur de fichiers
 
 ### Alternatives aux paquets présentés ici
-* npm-run-all: parallelshell
+* npm-run-all: parallelshell, concurrently
 * chokidar-cli: watch, chokidar-cmd
 * del-cli: rimraf
+* http-server: lite-server
 
 ## Todo
 * Variables d'environnement

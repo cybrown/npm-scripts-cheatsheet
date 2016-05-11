@@ -66,6 +66,9 @@ Utiliser -- entre la commande et les paramètres: ```npm run tsc -- -p front```
 * del-cli: rimraf
 * http-server: lite-server
 
+## Liens
+* http://pippinlee.com/2015/10/05/npm-scripts.html
+
 ## Todo
 * Variables d'environnement
 * Exemples avec de vraies tâches
